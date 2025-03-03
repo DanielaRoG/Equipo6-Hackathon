@@ -16,3 +16,9 @@
     height: 100%;
     object-fit: cover;
 }
+
+#fut{
+    font-family: 'Oswald';
+    font-size: larger;
+    background-color: #4b8827;;
+}

@@ -19,7 +19,31 @@
 
 <body>
     <header>
-        <div class=" container-fluid navbar">
+        <div id="bar" class=" navbar flexbox" > <!--barra de navegacion-->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+                <div class="container-fluid" style="background-color: #ff6d54">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#bar">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#nat">Natacion</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#fut">Futbol</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#bas">Basquet</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </div>
     </header>
     <main>
@@ -50,6 +74,51 @@
                 </button>
             </div>
         </div>
+
+
+<!--Promos--> 
+
+<div class="container text-center">
+    <div class="row">
+        <div class="promociones text-center my-5">Nuestras Promociones</div>
+      <div class="card" style="width: 18rem;">
+        <img src="./img/bici.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bicicleta híbrida gris 500</h5>
+          <p class="card-text">ransmisión monoplato de 9 velocidades con gatillo.</p>
+          <a href="#" class="btn btn-info">Agregar</a>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 18rem;">
+        <img src="./img/kayak.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Kayak inflable</h5>
+          <p class="card-text">Kayak inflable de expedición de 1 plaza con Drop Stitch Strenfit X500</p>
+          <a href="#" class="btn btn-info">Agregar</a>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 18rem;">
+        <img src="./img/raqueta.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pala de pádel </h5>
+          <p class="card-text">Pala con un revestimiento de fibras composites en la superficie de la pala</p>
+          <a href="#" class="btn btn-info">Agregar</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./img/raq.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Raqueta de tenis adulto</h5>
+          <p class="card-text"> composición 100 % grafito.Peso de 270 g</p>
+          <a href="#" class="btn btn-info">Agregar</a>
+        </div>
+      </div>
+    </div>
+  </div>      
+        
         <div class="row">
             <div class="titulo text-center" style="background-color: #F0F1F2; 
             padding: 20px; 
@@ -125,40 +194,55 @@
             </div>
 
 
-            <div class="titulo text-center"> Futbol</div>
-            <div class="container-fluid col-6 border border-danger">
-                <div class="imagen border border-danger">
-                    <img class="img-thumbnail rounded mx-auto d-block"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Full_Moon_Luc_Viatour.jpg/560px-Full_Moon_Luc_Viatour.jpg"
-                        alt="luna" width="200" height="150">
-                </div>
-                <div class="texto text-center border border-danger ">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                        has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into electronic typesetting,
-                        remaining essentially unchanged. It was popularised in the 1960s with the release of
-                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p>
-                </div>
+            <div id="fut" class="titulo text-center"> Futbol</div> <!--inicia div futbol-->
 
-            </div>
-            <div class="container-fluid col-6 border border-danger">
-                <div class="texto border aling-text border-danger ">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                        has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into electronic typesetting,
-                        remaining essentially unchanged. It was popularised in the 1960s with the release of
-                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p>
+            <div class="row border  mb-3">
+                <div class="col-md-6 text-center">
+                    <img class="img-thumbnail rounded mx-auto d-block" 
+                        src="./img/ball.png"
+                        alt="Tenis Anthony Edwards" width="200" height="150">
                 </div>
-                <div class=" imagen text-center border border-danger mx-1">
-                    <img class="img-thumbnail rounded mx-auto d-block"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Full_Moon_Luc_Viatour.jpg/560px-Full_Moon_Luc_Viatour.jpg"
-                        alt="luna" width="200" height="150">
+                <div class="col-md-6 text-center border " style="background-color: #96c836;">
+                    <p class="titulo">Premier League Pitch</p>
+                    <p class="parrafos">Balón de la Premier League. Las ranuras moldeadas reducen el arrastre</p>
+                    <p class="parrafos">$439.00</p>
+                </div>
+            </div>
+
+            <div class="row border  mb-3">
+                <div class="col-md-6 text-center border " style="background-color:#4b8827;">
+                    <p class="titulo">Nike Superfly 10 Elite Mercurial Dream Speed</p>
+                    <p class="parrafos">Calzado para usar en campos con pasto corto ligeramente húmedo, incluye plantilla con amortiguación</p>
+                    <p class="parrafos">$5219.00</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img class="img-thumbnail rounded mx-auto d-block" 
+                        src="./img/tennis.png"
+                        alt="Tenis Anthony Edwards" width="200" height="150">
+                </div>
+            </div>
+            <div class="row border  mb-3">
+                <div class=" col-md-6 text-center">
+                    <img class="producto img-thumbnail rounded mx-auto d-block" 
+                        src="img/glove.png"
+                        alt="Tenis Anthony Edwards" width="200" height="150">
+                </div>
+                <div class="col-md-6 text-center border " style="background-color:#96c836;">
+                    <p class="titulo">Guantes Nike</p>
+                    <p class="parrafos">Los guantes  de portero de fútbol estan hechos de espuma de látex ayuda a absorber el impacto cada vez que atrapas el balón y la correa ancha en la muñeca ofrece comodidad y seguridad en cada partido.</p>
+                    <p class="parrafos">$554.00</p>
+                </div>
+            </div>
+            <div class="row border  mb-3">
+                <div class="col-md-6 text-center border " style="background-color:#4b8827;">
+                    <p class="titulo">Nike J-Espinilleras</p>
+                    <p class="parrafos">Diseñadas para aguantar los impactos del juego, están confeccionadas con una cubierta de compuesto resistente y perforaciones para brindar comodidad y ventilación.</p>
+                    <p class="parrafos">$339.00</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img class="producto img-thumbnail rounded mx-auto d-block" 
+                        src="img/guard.png"
+                        alt="Tenis Anthony Edwards" width="200" height="150">
                 </div>
             </div>
             <div class="titulo text-center" 
