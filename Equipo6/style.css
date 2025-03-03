@@ -1,3 +1,13 @@
+.titulo {
+    font-family: 'Oswald', sans-serif; /* Aplica la fuente Oswald */
+    font-weight: 700; /* Puedes cambiar a 200, 400, 700 según lo que quieras */
+}
+
+.parrafos{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
 .c-item{
     height: 480px;
 }
