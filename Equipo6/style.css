@@ -1,20 +1,24 @@
-.titulo{
+.titulo {
+    font-family: 'Oswald', sans-serif; /* Aplica la fuente Oswald */
+    font-weight: 700; /* Puedes cambiar a 200, 400, 700 según lo que quieras */
+}
 
+.parrafos{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
 }
-.titulo{
-    font-family: 'Oswald';
+
+.c-item{
+    height: 480px;
 }
-.parrafo{
-    font-family: 'Monserrat';
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
 }
 
 #fut{
     font-family: 'Oswald';
     font-size: larger;
     background-color: #4b8827;;
-}
-
-.producto{
-    border: 3px solid black; /* Contorno negro de 3px */
-    border-radius: 5px; /* Opcional: bordes redondeados */
 }
