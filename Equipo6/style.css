@@ -27,3 +27,8 @@
     border: 5px solid black; /* Agrega un borde negro */
     border-radius: 10px
 }
+
+.border{
+    padding: 20px; 
+    border-radius: 15px
+}
