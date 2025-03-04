@@ -24,10 +24,10 @@
 
 <body>
     <header>
-        <div id="bar" class=" navbar flexbox"> <!--barra de navegacion-->
+       <!-- barra de navegacion-->
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid" style="background-color: #ff6d54">
-                    <a class="navbar-brand" href="#">Navbar</a>
+                    <a class="navbar-brand" href="#">NextSport</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -38,10 +38,10 @@
                                 <a class="nav-link active" aria-current="page" href="#bar">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#nat">Natacion</a>
+                                <a class="nav-link" href="#nat">Natación</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#fut">Futbol</a>
+                                <a class="nav-link" href="#fut">Fútbol</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#bas">Basquet</a>
@@ -53,7 +53,7 @@
         </div>
     </header>
     <main>
-        <div class="container-fluid carosel">
+        <div class="container-fluid carosel"><!--Carrusel-->
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active c-item">
@@ -80,12 +80,8 @@
                 </button>
             </div>
         </div>
-
-
-        <!--Promos-->
-
-        <div class="container text-center">
-            <div class="row">
+        <div class="container text-center"><!--Promos-->
+            <div class="row justify-content-center">
                 <div class="seccion text-center my-5">Nuestras Promociones</div>
                 <div class="card" style="width: 18rem;">
                     <img src="./img/bici.png" class="card-img-top" alt="...">
@@ -119,7 +115,7 @@
         </div>
 
         <div class="row">
-            <div class="seccion text-center" style="background: linear-gradient(to right, #007692, #00c7ba); 
+            <div class="seccion text-center my-3" style="background: linear-gradient(to right, #007692, #00c7ba); 
             color: white; ">Natación</div>
             <!-- Tarjeta 1 -->
             <div class="row  mb-3">
@@ -178,63 +174,57 @@
                 </div>
             </div>
 
-
-            <div id="fut" class="seccion text-center" style="background: linear-gradient(to right, #96c836, #4b8827); 
-            color: white; "> Futbol</div> <!--inicia div futbol-->
-
-            <div class="row mb-3">
-                <div class="col-md-6 text-center">
-                    <img class="img-thumbnail rounded mx-auto d-block" src="./img/ball.png" alt="Tenis Anthony Edwards"
-                        width="200" height="150">
+            <div id="fut" class="seccion text-center my-3" style="background: linear-gradient(to right, #96c836, #4b8827); 
+            color: white; "> Fútbol</div> <!--Seccion futbol-->
+            <!-- Tarjeta 1 -->
+            <div class="row  mb-3">
+                <div class="col-md-6 text-center" style="background-color: #F0F1F2; ">
+                    <img class="img-fluid" src="img/ball.png" alt="Traje de baño" width="200" height="150">
                 </div>
-                <div class="border col-md-6 text-center border " style="background-color: #96c836;">
+                <div class="border col-md-6 text-center" style=" background-color: #96c836">
                     <p class="titulo">Premier League Pitch</p>
-                    <p class="parrafos">Balón de la Premier League. Las ranuras moldeadas reducen el arrastre</p>
-                    <p class="parrafos">$439.00</p>
+                    <p class="parrafos">"Balón de la Premier League. Las ranuras moldeadas reducen el arrastre."</p>
+                    <p>$439</p>
                 </div>
             </div>
-
-            <div class="row mb-3">
-                <div class="border col-md-6 text-center border " style="background-color:#4b8827;">
+            <!-- Tarjeta 2 -->
+            <div class="row border  mb-3 flex-row-reverse">
+                <div class="col-md-6 text-center" style="background-color: #F0F1F2;">
+                    <img class="img-fluid" src="img/tennis.png" alt="Pants Basketball" width="200" height="150">
+                </div>
+                <div class="border col-md-6 text-center" style="background-color: #96c836; ">
                     <p class="titulo">Nike Superfly 10 Elite Mercurial Dream Speed</p>
-                    <p class="parrafos">Calzado para usar en campos con pasto corto ligeramente húmedo, incluye
-                        plantilla con amortiguación</p>
-                    <p class="parrafos">$5219.00</p>
-                </div>
-                <div class="col-md-6 text-center">
-                    <img class="img-thumbnail rounded mx-auto d-block" src="./img/tennis.png"
-                        alt="Tenis Anthony Edwards" width="200" height="150">
+                    <p class="parrafos">"Calzado para usar en campos con pasto corto ligeramente húmedo, incluye
+                        plantilla con amortiguación"</p>
+                    <p>$5219.00</p>
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class=" col-md-6 text-center">
-                    <img class="producto img-thumbnail rounded mx-auto d-block" src="img/glove.png"
-                        alt="Tenis Anthony Edwards" width="200" height="150">
+            <!-- Tarjeta 3 -->
+            <div class="row  mb-3">
+                <div class="col-md-6 text-center" style="background-color: #F0F1F2; ">
+                    <img class="img-fluid" src="img/glove.png" alt="Traje de baño" width="200" height="150">
                 </div>
-                <div class="border col-md-6 text-center border " style="background-color:#96c836;">
+                <div class="border col-md-6 text-center" style=" background-color: #4b8827">
                     <p class="titulo">Guantes Nike</p>
-                    <p class="parrafos">Los guantes de portero de fútbol estan hechos de espuma de látex ayuda a
+                    <p class="parrafos">"Los guantes de portero de fútbol estan hechos de espuma de látex ayuda a
                         absorber el impacto cada vez que atrapas el balón y la correa ancha en la muñeca ofrece
-                        comodidad y seguridad en cada partido.</p>
-                    <p class="parrafos">$554.00</p>
+                        comodidad y seguridad en cada partido"</p>
+                    <p>$554.00</p>
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="border col-md-6 text-center border " style="background-color:#4b8827;">
-                    <p class="titulo">Nike J-Espinilleras</p>
-                    <p class="parrafos">Diseñadas para aguantar los impactos del juego, están confeccionadas con una
-                        cubierta de compuesto resistente y perforaciones para brindar comodidad y ventilación.</p>
-                    <p class="parrafos">$339.00</p>
+            <!-- Tarjeta 4 -->
+            <div class="row border  mb-3 flex-row-reverse">
+                <div class="col-md-6 text-center" style="background-color: #F0F1F2;">
+                    <img class="img-fluid" src="img/guard.png" alt="Pants Basketball" width="200" height="150">
                 </div>
-                <div class="col-md-6 text-center">
-                    <img class="producto img-thumbnail rounded mx-auto d-block" src="img/guard.png"
-                        alt="Tenis Anthony Edwards" width="200" height="150">
+                <div class="border col-md-6 text-center" style="background-color: #4b8827; ">
+                    <p class="titulo">Espinilleras Nike</p>
+                    <p class="parrafos">"Diseñadas para aguantar los impactos del juego, están confeccionadas con una cubierta de compuesto resistente y perforaciones para brindar comodidad y ventilación.n"</p>
+                    <p>$339.00</p>
                 </div>
             </div>
-            <div class="seccion text-center" style="background: linear-gradient(to right, #fff68d, #FFBB5C); 
-             color: white; ">
-                Basquet
-            </div>
+            <div id="bas" class="seccion text-center my-3" style="background: linear-gradient(to right, #fff68d, #FFBB5C); 
+            color: white; ">Basquet</div><!--Seccion basquet-->
 
             <div class="container">
 
@@ -242,7 +232,7 @@
                 <div class="row  mb-3">
                     <div class="col-md-6 text-center" style="background-color: #F0F1F2;">
                         <img class="img-fluid"
-                            src="/Equipo6/img/Pants_Pierna_Ancha_Originals_Basketball_Unisex_Negro_JM1785_21_model.avif"
+                            src="img/Pants_Pierna_Ancha_Originals_Basketball_Unisex_Negro_JM1785_21_model.avif"
                             alt="Tenis Anthony Edwards" width="200" height="150">
                     </div>
                     <div class="border col-md-6 text-center " style="background-color: #fff68d;;">
@@ -258,7 +248,7 @@
                 <div class="row  mb-3 flex-row-reverse">
                     <div class="col-md-6 text-center" style="background-color: #F0F1F2;">
                         <img class="img-fluid"
-                            src="/Equipo6/img/Tenis_Anthony_Edwards_1_Low_Ninos_Gris_JQ8885_01_00_standard.avif"
+                            src="img/Tenis_Anthony_Edwards_1_Low_Ninos_Gris_JQ8885_01_00_standard.avif"
                             alt="Pants Basketball" width="200" height="150">
                     </div>
                     <div class="border col-md-6 text-center " style="background-color: #FFBB5C;">
@@ -274,7 +264,7 @@
                 <div class="row  mb-3">
                     <div class="col-md-6 text-center" style="background-color: #F0F1F2;">
                         <img class="img-fluid"
-                            src="/Equipo6/img/Tenis_Cross_Em_Up_Select_Mid_Para_Ninos_Negro_IG6645_04_standard.avif"
+                            src="img/Tenis_Cross_Em_Up_Select_Mid_Para_Ninos_Negro_IG6645_04_standard.avif"
                             alt="Tenis Cross Em Up" width="200" height="150">
                     </div>
                     <div class="border col-md-6 text-center" style="background-color: #fff68d;;">
@@ -289,7 +279,7 @@
                 <div class="row  mb-3 flex-row-reverse">
                     <div class="col-md-6 text-center" style="background-color: #F0F1F2;">
                         <img class="img-fluid"
-                            src="/Equipo6/img/Playera_Basketball_Manga_Larga_Unisex_Blanco_IX1971_21_model.avif"
+                            src="img/Playera_Basketball_Manga_Larga_Unisex_Blanco_IX1971_21_model.avif"
                             alt="Pants Basketball" width="200" height="150">
                     </div>
                     <div class="border col-md-6 text-center " style="background-color: #FFBB5C;">
@@ -305,10 +295,14 @@
 
 
         </div>
+
+        <button id="btnArriba" class="btn btn-primary rounded-circle"> <!--Boton flotante-->
+            <i class="bi bi-arrow-up">Arriba</i>
+        </button>    
     </main>
 
     <footer>
-        <div class="container-fluid">
+        <div class="container-fluid"><!--Seccion footer-->
             <section id="contacto" class="bg-dark text-light py-5">
                 <div class="container">
                     <div class="row">
@@ -324,11 +318,11 @@
                             <p><i class="bi bi-geo-alt-fill"></i> Dirección: Siempre cerca de ti</p>
                             <p>Síguenos en redes:</p>
                             <a href="#" class="btn btn-outline-light me-2"><i class="bi bi-facebook"></i>
-                                <img src="/Equipo6/img/Facebook.png" width="30" height="30" alt=""></a>
+                                <img src="img/Facebook.png" width="30" height="30" alt=""></a>
                             <a href="#" class="btn btn-outline-light me-2"><i class="bi bi-instagram"></i>
-                                <img src="/Equipo6/img/Insta.png" width="30" height="30"></a>
+                                <img src="img/Insta.png" width="30" height="30"></a>
                             <a href="#" class="btn btn-outline-light"><i class="bi bi-twitter-x"></i>
-                                <img src="/Equipo6/img/TikTok.png" width="30" height="30"></a>
+                                <img src="img/TikTok.png" width="30" height="30"></a>
                         </div>
             </section>
 
